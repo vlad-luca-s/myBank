@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.mybank"},{"l":"com.mybank.controller"},{"l":"com.mybank.data"},{"l":"com.mybank.dto"},{"l":"com.mybank.jpa"},{"l":"com.mybank.service"},{"l":"com.mybank.utils"}];updateSearchResults();

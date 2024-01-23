@@ -1,0 +1,7 @@
+com.mybank
+com.mybank.controller
+com.mybank.data
+com.mybank.dto
+com.mybank.jpa
+com.mybank.service
+com.mybank.utils
