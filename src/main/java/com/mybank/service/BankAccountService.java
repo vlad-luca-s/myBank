@@ -23,7 +23,7 @@ public class BankAccountService {
     }
 
     @Transactional(propagation = Propagation.REQUIRES_NEW)
-    public void transferMoney(String fromAccountNumber, String toAccountNumber, BigDecimal amount) throws InvalidAccountException {
+    public void transferMoney(String fromAccountNumber, String toAccountNumber, BigDecimal amount) throws InvalidAccountException, InvalidAmountException {
         BankAccount fromAccount = accountRepository.findByAccountNumber(fromAccountNumber);
         if (fromAccount == null) {
             throw new InvalidAccountException(fromAccountNumber);
