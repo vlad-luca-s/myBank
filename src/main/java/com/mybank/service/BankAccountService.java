@@ -34,7 +34,7 @@ public class BankAccountService {
             throw new InvalidAccountException(toAccountNumber);
         }
 
-        if (fromAccount.getBalance().compareTo(amount) < 0) {
+        if (fromAccount.getBalance().compareTo(amount) <= 0) {
             throw new InvalidAmountException();
         }
 
